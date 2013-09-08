@@ -1,4 +1,4 @@
 HitszClient
 ===========
 
-an INode python client
+用于iNode客户端上网认证
