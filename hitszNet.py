@@ -223,9 +223,9 @@ if __name__ == '__main__':
                 hitsz.sendOnlinePacket(hitsz.serialNo)
                 hitsz.sendHeartPacketInit()
                 hitsz.sendHeartPacket()
-            #else:
-            #    hitsz.serialNo = hitsz.ReadSerialNo()
-            #    hitsz.sendHeartPacket(hitsz.serialNo)
+            else:
+                hitsz.ReadSerialNoAndIp()
+                hitsz.sendHeartPacket()
 
 
         elif op == '-o':
